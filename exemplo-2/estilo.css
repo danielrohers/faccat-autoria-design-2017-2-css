@@ -1,0 +1,18 @@
+.container-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  background-color: red;
+  border: 1px solid #000;
+  min-height: 100px;
+  min-width: 100px;
+  margin: 5px;
+  flex-grow: 1;
+}

@@ -1,0 +1,71 @@
+@import 'reset.css';
+@import 'colors.css';
+
+h2 {
+  padding-top: 25px;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  margin: 1px;
+}
+
+.flex {
+  display: flex;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #969696;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+.justify-content-flex-start {
+  justify-content: flex-start;
+}
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
